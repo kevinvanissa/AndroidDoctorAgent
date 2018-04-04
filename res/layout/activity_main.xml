@@ -1,0 +1,220 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout  android:id="@+id/lView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Patient:" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Patient..." >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Diagnosis:" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editDiagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Diagnosis..." >
+        
+    </AutoCompleteTextView>
+    
+     <TextView
+        android:id="@+id/textView2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Proposed Drug:" />
+    
+     <AutoCompleteTextView
+        android:id="@+id/editPDrug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Proposed Drug" >
+        
+    </AutoCompleteTextView>
+    
+ <View
+    android:layout_width="fill_parent"
+    android:layout_height="5dp"
+    android:background="@android:color/darker_gray"/>
+
+ <TextView
+     android:id="@+id/tViewTitle"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:gravity="center" 
+     android:textColor="#ff0000"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+     android:padding="5dp"
+     android:text="FILTER OUT THE FOLLOWING:" />
+ <!--   
+  <RadioGroup
+        android:id="@+id/radioAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/radioYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_yes" 
+            android:checked="true" />
+ 
+        <RadioButton
+            android:id="@+id/radioNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_no" />
+ 
+    </RadioGroup> -->
+ 
+ 
+ 
+ <TextView
+        android:id="@+id/tView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Mechanism of Action:" />
+    
+     <AutoCompleteTextView
+        android:id="@+id/editMechanism"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mechanism of Action" >
+        
+    </AutoCompleteTextView>
+ 
+ 
+    <TextView
+        android:id="@+id/tView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose PharmacoKinetics:" />
+    
+     <AutoCompleteTextView
+        android:id="@+id/editPharmaco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="PharmacoKinetics" >
+        
+    </AutoCompleteTextView>
+ 
+      <TextView
+        android:id="@+id/tView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Physiologic Effect:" />
+    
+     <AutoCompleteTextView
+        android:id="@+id/editPhysiologic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Physiologic Effect" >
+        
+    </AutoCompleteTextView>
+     
+     
+    <TextView
+        android:id="@+id/tView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Therapeutic Category:" />
+    
+     <AutoCompleteTextView
+        android:id="@+id/editTherapeutic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Therapeutic Category" >
+       
+    </AutoCompleteTextView>
+     
+  <!-- <TextView
+        android:id="@+id/text_spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Drug Form:" />   
+  <Spinner
+	    android:id="@+id/spinner_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/form_array"
+        android:prompt="@string/select_drugform"
+        />
+    
+   <TextView
+        android:id="@+id/text_spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Onset of Action:" />   
+  <Spinner
+	    android:id="@+id/spinner_onset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/onset_array"
+        android:prompt="@string/select_onset"
+        />
+      
+   <TextView
+        android:id="@+id/text_spinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Duration of Action:" />   
+  <Spinner
+	    android:id="@+id/spinner_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/duration_array"
+        android:prompt="@string/select_duration"
+        />
+    
+   -->
+  
+    
+     <View
+    android:layout_width="fill_parent"
+    android:layout_height="5dp"
+    android:background="@android:color/darker_gray"/>    
+    
+    
+     
+    
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/scroll" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+
+
+<LinearLayout android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="ID: P001" />
+
+    <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Patient: Dundee Miller" />
+    
+    <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Diagnosis: Hypertension" />
+      
+      <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Diagnosis Code: DIAG001" />
+    
+     <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="-----------Drug1-----------------"
+             android:textSize="20sp" />
+     
+      
+    
+       <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Drug Choosen: Lisinopril Oral" />
+       
+       
+        <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Drug Brand Name: Prinivil, Zestril" />
+        
+         <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Probability of Effectiveness: 85%" />
+
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="Rationale: This drug was choosen because it lists hypertension as one of the diseases that it can treat"
+             android:textSize="20sp" />
+
+          <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="-----------Drug 2---------------"
+             android:textSize="20sp" />
+          
+           <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Drug Choosen: Irbesartan" />
+       
+       
+        <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Drug Brand Name: Avapro" />
+        
+         <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Probability of Effectiveness: 79%" />
+
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="Rationale: This drug was choosen because it lists hypertension as one of the diseases that it can treat"
+             android:textSize="20sp" />
+          
+          
+           <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="-----------Drug 3---------------"
+             android:textSize="20sp" />
+          
+         
+           <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Drug Choosen: Nifedipine" />
+       
+       
+        <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Drug Brand Name: Adalat CC, Procardia XL" />
+        
+         <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="20sp"
+		android:text="Probability of Effectiveness: 64%" />
+
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="Rationale: This drug was choosen because it lists hypertension as one of the diseases that it can treat"
+             android:textSize="20sp" />
+          
+           
+           
+           
+</LinearLayout>
+</ScrollView>
